@@ -48,7 +48,7 @@ function App() {
     let date = d.getDate();
     console.log("date", date);
 
-    if (month == 9 && Number(date) == Number(30)) {
+    if (month == 8 && Number(date) == Number(30)) {
       setDay(month);
       console.log("working");
     }
